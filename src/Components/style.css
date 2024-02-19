@@ -1,0 +1,38 @@
+.folderWrapper {
+    padding: 5px 0 0 15px;
+}
+
+.movie_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 30px;
+
+    .movie_joveo_header {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .movie_input_bar {
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 500px;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+.movie-card {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+ 
